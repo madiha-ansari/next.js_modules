@@ -1,13 +1,9 @@
-import React from 'react'
+import styles from './Button.module.css';
 
-const Page = () => {
-  return (
-    <div>
-        <h1 style={{ color: 'blue', background: 'pink' }}><center>Hello world</center></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eveniet molestiae, maiores quo ullam optio ut mollitia magnam a, voluptatum ipsum aliquam aperiam repellat iure? Nihil cum neque quisquam. Itaque!</p>
-    </div>
-  )
+export default function Button() {
+  return ( <div>
+  <button className={styles.button}>Click me</button>
+  <h1 className={styles.cls}>I am Madiha</h1> </div>)
 }
 
-export default Page
- 
+Button()
